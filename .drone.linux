@@ -1,6 +1,8 @@
 #!/bin/bash -uxe
 
 if [$CUDA != "nil"]; then
+    # TODO: Needs correcting to arm installers 
+    
     sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
 
     declare -A installers
